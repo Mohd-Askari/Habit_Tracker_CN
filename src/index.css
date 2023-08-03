@@ -1,0 +1,164 @@
+/* style add for all element */
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+  color: white;
+}a:hover{
+  color: white;
+}
+
+/* style for body */
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  /* background:linear-gradient(red 10%, rgb(135, 175, 25) 30%, blue 795%); */
+  background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg");
+   /* background:linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%); */
+  color: white;
+}
+
+/* style root div */
+#root{
+  width: 80%;
+  /* border-right: 1px solid #323232; */
+  /* border-left: 1px solid #323232; */
+}
+
+/* style navbar component ---------------------------------*/
+.navbar{
+  align-items: center;
+  display: flex;
+  height: 100px;
+  padding: 0px 20px;
+  justify-content: space-between;
+  /* border-bottom: 1px solid #323232; */
+}
+.right-nav{
+  display: flex;
+  align-items: center;
+}
+.right-nav h5{
+  color: #DDDDDD;
+  margin-right: 10px;
+}
+.addhabit-btn{
+  cursor: pointer;
+  color: white;
+  background-color: #17057d;
+  padding: 8px 20px;
+  border-radius: 7px;
+}
+/* modal */
+.modal-content{
+  /* background-color: #042340e8; */
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJGP6H5sQvi_1GGHs-yk1DxUp8ikmLwAwiJA&usqp=CAU");
+}
+.modal-header{
+  border: none;
+}
+.modal-footer{
+  border: none;
+}
+/* ---------------------------------------------------- */
+
+/* habits components style------------------------------ */
+.habits{
+  width: 100%;
+}
+
+/* habit under habits component */
+.habit{
+  width: 100%;
+  height: 100px;
+  /* border-bottom: 1px solid #323232; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+.habit:hover{
+  background-color: hwb(195 2% 90% / 0.985);
+}
+.habit-left{
+  display: flex;
+  align-items: center;
+}
+.habit-left i{
+  color: #2AA8D0;
+  padding: 10px;
+  border-radius: 50%;
+ background-color: #17057d;
+  margin-right: 10px;
+}
+.day-complete{
+  color: #767475;
+  font-size:small;
+}
+.habit-right{
+  display: flex;
+  align-items: center;
+}
+.log-btn{
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #17057d;
+  padding: 10px;
+  border-radius: 7px;
+  margin-right: 10px;
+  color: white;
+  border: none;
+}
+.log-btn:hover{
+  color: white;
+}
+.log-btn i{
+  margin-right: 5px;
+}
+.fa-trash{
+  cursor: pointer;
+  padding: 10px;
+  border-radius: 7px;
+  background-color: #970c0c;
+}
+/* ------------------------------------------------------*/
+
+/* style week view container --------------------------- */
+.days-container{
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+/* style day view component */
+.day-container{
+  height: 100px;
+  width: 150px;
+  background-color: #040752;
+  border-radius: 20px;
+  padding: 5px;
+}
+p{
+  margin: 0%;
+}
+.circle-icon{
+  font-size: 24px;
+  margin: 5px 11px;
+  /* color: #0B5ED7; */
+  cursor: pointer;
+}
+.active{
+  color: #434209 ;
+}
+.habit{
+  background-color: hsl(229, 92%, 15%);
+}
+/* ------------------------------------------------------*/
